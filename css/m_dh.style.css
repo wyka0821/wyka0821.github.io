@@ -1,0 +1,111 @@
+html, body
+{
+    height: 100%;
+}
+body {
+    background-image: url('background.jpg');
+    background-repeat:repeat-x; 
+    background-size:100% 100%
+}
+.ui.menu .item img.logo {
+    margin-right: 1.5em;
+}
+.ui.menu{
+    border-radius: 0rem;
+}
+
+.ui.definition.table td:nth-child(2) {
+    border-left: 0;
+}
+
+.main.container {
+    position:relative;
+    height:auto;
+    width:100%;
+    min-height:90%;
+}
+
+.main.container .FooterPush{
+    height: 0em;
+}
+.centerlog {
+    display: block;
+    margin: auto;
+    height: 10rem;
+}
+.ui.search{
+    margin-top: 4em;
+}
+.ui.input{
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+.ui.sbuttons{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+.ui.button{
+    margin-top: 1em;
+}
+.prompt{
+    width: 60em;
+}
+.ui.footer.segment {
+    clear: both; /* 清除浮动元素格式 */
+    position:relative;
+    height:auto;
+}
+.footer-inner{
+    text-align: center;
+}
+.ui.stables{
+    padding-top: 2em;
+}
+.short-cut{
+    position:relative;
+    height:auto;
+    background-size:100% 100%
+}
+.links{
+    position:relative;
+    height:auto;
+    width:100%;
+    margin-right:150px;
+    margin-left:0px;
+}
+
+.links a{
+    color: #0000FF;
+    display: block;
+    min-width: 80px;
+    padding: 1em 2em;
+    text-align: center;
+    margin-bottom: 1em;
+    border: #000 1px solid;
+    transition: background 0.3s, color 0.3s, opacity 0.3s, transform 0.3s;
+    background-color:aquamarine
+}
+.links a:hover{
+    color: #258ec5;
+    background: #fff;
+    transform: scale(1.1, 1.1);
+}
+.links a:active{
+    opacity: 0.7;
+    transform: scale(0.9, 0.9);
+}
+.links a:last-child{
+    margin-bottom: 0;
+}
+.self_page{
+    display:inline-block;
+    background-color:#000;
+}
+.head_font{
+    display:auto ;
+    color:#fff
+}
